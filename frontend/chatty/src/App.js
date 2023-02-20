@@ -5,6 +5,7 @@ import io from 'socket.io-client'
 // import {nanoid} from "nanoid"
 
 // no dotenv
+//this is testing
 const socket = io.connect("http://localhost:5000");
 const name = prompt("Enter your name");
 const username = name;
